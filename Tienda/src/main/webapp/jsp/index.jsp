@@ -15,7 +15,7 @@
 <body>
 	<div class="box">
 		<h2>Ingreso</h2>
-		<form action="sesion.php" method="post"> 
+		<form action="php/sesion.php" method="post"> 
 			<div class="inputBox">
 				<input type="text" name="usuario" required>
 				<label>Usuario*</label>
