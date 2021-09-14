@@ -19,14 +19,14 @@ body{
 }
 .box{
 	position: absolute;
-	top: 65%;
+	top: 60%;
 	left: 50%;
 	transform: translate(-50%,-50%);
-	width: 500px;
+	width: 600px;
 	padding: 40px;
 	background: rgba(0,0,0,.8);
 	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	box-shadow: 0 0 0 rgba(0,0,0,.5);
 	border-radius: 10px;
 	
 }
@@ -40,7 +40,7 @@ body{
 	position: relative;
 }
 .box .inputBox input{
-	width: 100%;
+	width: 80%;
 	padding: 10px 0;
 	font-size: 16px;
 	color: #fff;
@@ -88,7 +88,7 @@ body{
 
 #boton:hover {
 	background: #FF00BF;
-
+}
 
 *{
 	margin: 0;
@@ -134,12 +134,6 @@ ul.tabs li a .tab-text{
 	margin-left: 8px;
 }
 
-.secciones{
-	width: 100%;
-	background: #fff;
-}
-
-
 @media screen and (max-width: 700px){
 	ul.tabs li{
 		width: none;
@@ -157,7 +151,13 @@ ul.tabs li a .tab-text{
 		display: none;
 	}
 
-	.secciones a{
-		padding: 20px;
-	}
 }
+.form{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.form .grupo_boton{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
