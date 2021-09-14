@@ -12,7 +12,7 @@
 </head>
 <body>
 	<div class="box">
-		<h2>Ingreso</h2>
+		<h2>Bienvenidos a la tienda genérica</h2>
 		<form action="php/sesion.php" method="post"> 
 			<div class="inputBox">
 				<input type="text" name="usuario" required>
